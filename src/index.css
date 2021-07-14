@@ -15,3 +15,48 @@ code {
   margin: 0;
   padding: 0;
 }
+
+.rounded-x-btn{
+  border-radius: 25px;
+}
+.header-input{
+  background-color: rgb(201, 243, 245);
+  color: rgb(13, 175, 250);
+  border: 0px;
+  width: 100%;
+}
+.header-input:focus,.header-input:target{
+  border: none;
+  box-shadow: none;
+}
+.job-details{
+  right:-10px;
+  margin-top: 60px;
+  z-index: 10;
+  border-radius: 15px;
+  top:100px;
+}
+.add-employee{
+  right:30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  top:100px;
+}
+.add-employee .small{
+  margin-left: -30px;
+}
+.top-header{
+  height: 100vh ;
+}
+.try-free-btn{
+  background-color: rgba(0, 0, 0, 0.075);
+  border:none;
+  box-shadow: none;
+}
+.get-started{
+  background-color: rgba(255, 255, 255, 0.281);
+  border-radius: 15px;
+}
+.get-started button{
+  border-radius: 15px;
+}

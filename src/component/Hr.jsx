@@ -9,7 +9,7 @@ const Hr = () => {
         <div className="fluid-container pb-5" style={{ backgroundColor: "#c9f3f5" }}>
             <p className="m-5 pt-4 text-primary"><FontAwesomeIcon icon={faUserFriends} size="2x" style={{ backgroundColor: "blue", borderRadius: "5rem" }} /><strong className="h2">HR </strong><span>Manage your people with ease.</span></p>
             <div className="row">
-                <div className="col-lg-7 ps-5">
+                <div className="col-lg-7 ps-5"> 
                     <div className="card" style={{ width: "90%" }}>
                         <div className="card-header ps-3">
                             Add a candidate
