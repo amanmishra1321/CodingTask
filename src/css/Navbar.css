@@ -1,0 +1,28 @@
+.gradient{
+    background: linear-gradient(90deg,#e632fa 20%,#2261f5);
+    box-sizing: border-box;
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.gradient:after{
+    transform-origin: top right;
+    background: inherit;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform:skewY(-9deg);
+}
+.blank{
+    background: transparent;
+    filter: blur(3rem);
+    border: 1px solid white;
+    border-radius: 5%;
+    color: white !important;
+    position: absolute;
+    z-index: 10px;
+
+}

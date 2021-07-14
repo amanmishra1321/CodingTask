@@ -1,0 +1,8 @@
+.colorful{
+    border-radius: 5rem;
+    background-color: linear-gradient(to right,#c435f0,#660185);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
